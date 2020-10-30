@@ -1,4 +1,4 @@
-<mxfile modified="2020-10-30T10:10:55.607Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="R8Syv3PicwqIHqFJs261" version="13.8.7" type="github">
+<mxfile modified="2020-10-30T10:11:30.857Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="Zr__5vbFcYc2nNif0Eqi" version="13.8.7" type="github">
   <diagram id="C2fSY1v2SiZeoUbDoYyL" name="Page-1">
     <mxGraphModel dx="1343" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -47,10 +47,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UOOkd_Sx9M1J2A1Di_9m-18" value="Abfrage des Gerätes und erzeugen eines json-Strings mit Informationen, die für die Anzeige in der App benötigt werden. Beispiel HydroStar: Aus bga_power_bit wird bga_prozent, bga_m/s, bga_km/h, usw&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="210" y="20" width="270" height="180" as="geometry" />
+          <mxGeometry x="210" y="100" width="270" height="180" as="geometry" />
         </mxCell>
         <mxCell id="UOOkd_Sx9M1J2A1Di_9m-19" value="Informationen aus der Datei müssen in für das Gerät verständliche Werte umgerechnet werden. Beispiel HydroStar: bga_prozent wird in bga_power_bit umgerechnet und der gesamte String [1,0,...] wird erzeugt. Dazu müssen noch weiter Statusdateien eingelesen werden. Hier HydroStar und Licht." style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="650" y="490" width="270" height="180" as="geometry" />
+          <mxGeometry x="390" y="530" width="330" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
